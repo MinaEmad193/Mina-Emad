@@ -152,7 +152,7 @@ main {
     Width:fit-content;
     height:fit-content;
     display: flex;
-    justify-content: center
+    justify-content: center;
     align-items:center;
     text-decoration: none;
     border-radius: 3px;
@@ -400,18 +400,21 @@ hr {
     }
 
     header .text {
-        font-size:0.9rem;
+        font-size:0.8rem;
+        
         margin:0 10px;
     }
 
     header .link {
         margin-left:10px;
+      margin-top:7px;
+        height:35px;
     }
 
     #sec1 {
         padding:0 10px;
-        background-size: 35%;
-        margin-top: ;
+        background-size: 25%;
+        background-position:95% bottom;
     }
 
     #sec1 #description-area {
@@ -508,6 +511,7 @@ hr {
 @media (max-width:350px) {
     #sec1 {
         background-size: 55%;
+        background-position:95% bottom;
     }
 
     #sec1 #description-area {
